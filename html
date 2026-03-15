@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO -->
+<title>Webdash+ | Modern Website Design Studio</title>
+<meta name="description" content="Webdash+ builds modern websites, logos, and branding for startups and small businesses.">
+<meta name="keywords" content="web design, website development, logo design, small business websites">
+<meta name="author" content="Webdash+">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Webdash+">
+<meta property="og:description" content="Modern websites for startups and businesses">
+<meta property="og:type" content="website">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<div class="container header-inner">
+
+<div class="logo">
+<img src="https://res.cloudinary.com/dvvahcryo/image/upload/v1773592096/hii_bkrtmn.png" alt="Webdash Logo">
+</div>
+
+<nav>
+<ul class="nav-menu">
+<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+</nav>
+
+<button class="mobile-toggle">☰</button>
+
+</div>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-image">
+<img src="https://unsplash.com/photos/a-close-up-of-a-black-and-brown-abstract-painting-tMbQpdguDVQ" 
+alt="Abstract background">
+</div>
+
+<div class="hero-content">
+
+<h1>
+YOU DESERVE A <br>
+<span>BETTER WEBSITE</span>
+</h1>
+
+<p>
+We help startups, entrepreneurs, and local businesses build a powerful
+online presence with modern websites, custom logos, and professional design solutions.
+</p>
+
+</div>
+
+
+<!-- SCROLL INDICATOR -->
+<div class="scroll-down">
+
+<span>SCROLL DOWN</span>
+
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+<polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about">
+
+<div class="container">
+
+<h2>About Webdash+</h2>
+
+<p>
+Webdash+ is a digital design studio helping small businesses create a strong
+online identity through modern websites, logo design, and branding solutions.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section id="services">
+
+<div class="container">
+
+<h2>Our Services</h2>
+
+<div class="services-grid">
+
+<div class="service">
+<h3>Website Design</h3>
+<p>Modern responsive websites designed for startups and businesses.</p>
+</div>
+
+<div class="service">
+<h3>Website Development</h3>
+<p>Fast, optimized and SEO-ready websites built for performance.</p>
+</div>
+
+<div class="service">
+<h3>Logo & Branding</h3>
+<p>Professional logo creation and brand identity design.</p>
+</div>
+
+<div class="service">
+<h3>Website Editing</h3>
+<p>Upgrade, redesign, or fix existing websites.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects">
+
+<div class="container">
+
+<h2>Projects</h2>
+<p>Coming Soon</p>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact">
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<p>
+Have a project in mind? Let's build something amazing.
+</p>
+
+<a href="https://forms.gle/" class="contact-btn">
+Submit Your Request
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+<div class="container">
+
+<p>© 2026 Webdash+. All Rights Reserved.</p>
+
+</div>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script>
+
+const header = document.querySelector(".header")
+
+window.addEventListener("scroll", () => {
+
+if(window.scrollY > 50){
+header.classList.add("scrolled")
+}else{
+header.classList.remove("scrolled")
+}
+
+})
+
+</script>
+
+</body>
+</html>
